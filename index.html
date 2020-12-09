@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce website</title>
+    <link rel="stylesheet" href="style.css" >
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;1,200;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="menuItems">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="products.html">PRODUCTS</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="account.html">LOGIN  </a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+            <img src="images/menu.png" class="menu-icon" onclick= "menutoggle()"> 
+            <div class="social-icons">
+                <img src="images/facebook.png">
+                <img src="images/twitter.png">
+                <img src="images/instagram.png">
+                <img src="images/linkedin.png">
+            </div> 
+        </div>
+        <div class="row">
+            <div class="col1">
+                <h1>Give Your Workout <br> A New Style</h1>
+                <p>If you have any questions please feel free to e-mail me at <br> conract@prakash.com</p>
+                <a href="" class="btn">Explore Now &#8594;</a>
+            </div>
+
+
+            <div class="col2 slidershow">
+                <div class="slides">
+                        <input type="radio" name="r" id="r1" checked>
+                        <input type="radio" name="r" id="r2">
+                        <input type="radio" name="r" id="r3">
+                        <input type="radio" name="r" id="r4">
+                        <input type="radio" name="r" id="r5">
+                    <div class="slide s1">
+                        <img src="images/head-phone.png">
+                    </div>
+                    <div class="slide">
+                        <img src="images/exclusive.png">
+                    </div>
+                    <div class="slide">
+                        <img src="images/bag.png">
+                    </div>
+                    <div class="slide">
+                        <img src="images/laptop.png">
+                    </div>
+                    <div class="slide">
+                        <img src="images/shoe.png">
+                    </div>
+                </div>
+                <div class="navigation">
+                    <label for="r1" class="bar btn"></label>
+                    <label for="r2" class="bar btn"></label>
+                    <label for="r3" class="bar btn"></label>
+                    <label for="r4" class="bar btn"></label>
+                    <label for="r5" class="bar btn"></label>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+</div>
+
+<!-- -----featured categories------ -->
+<div class="categories">
+    <div class="small-container">
+        <div class="row">
+            <div class="col3">
+                <img src="images/category-1.jpg" >
+            </div>
+            <div class="col3">
+                <img src="images/category-2.jpg" >
+            </div>
+            <div class="col3">
+                <img src="images/category-3.jpg" >
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- -----featured products------ -->
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col4">
+               <a href="product-details.html"><img src="images/product-1.jpg" ></a>
+               <a href="product-details.html"><h4>Red Printed T-shirt</h4></a>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹500.00</p>
+            </div>
+            
+            <div class="col4">
+                <img src="images/product-2.jpg" >
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹500.00</p>
+            </div>
+
+            <div class="col4">
+                <img src="images/product-3.jpg" >
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹500.00</p>
+            </div>
+
+            <div class="col4">
+                <img src="images/product-4.jpg" >
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹500.00</p>
+            </div>
+        </div>
+     
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col4">
+                <img src="images/product-5.jpg" >
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹500.00</p>
+            </div>
+            
+            <div class="col4">
+                <img src="images/product-6.jpg" >
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹500.00</p>
+            </div>
+
+            <div class="col4">
+                <img src="images/product-7.jpg" >
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹500.00</p>
+            </div>
+
+            <div class="col4">
+                <img src="images/product-8.jpg" >
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>₹500.00</p>
+            </div>
+            <div class="row">
+                <div class="col4">
+                    <img src="images/product-9.jpg" >
+                    <h4>Red Printed T-shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>₹500.00</p>
+                </div>
+                
+                <div class="col4">
+                    <img src="images/product-10.jpg" >
+                    <h4>Red Printed T-shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>₹500.00</p>
+                </div>
+    
+                <div class="col4">
+                    <img src="images/product-11.jpg" >
+                    <h4>Red Printed T-shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>₹500.00</p>
+                </div>
+    
+                <div class="col4">
+                    <img src="images/product-12.jpg" >
+                    <h4>Red Printed T-shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>₹500.00</p>
+                </div>
+            </div>
+        </div> 
+    </div>
+<!-- ----offer---- -->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col2">
+                    <img src="images/exclusive.png" class="offer-image">
+                </div>
+                <div class="col2">
+                    <p>Exclusively Available on This Store</p>
+                    <h1>Smart band 5</h1>
+                    <small>Mi Smart Band 4- India's No.1 Fitness Band, Up-to 20 Days Battery Life, Color AMOLED Full-Touch Screen, Waterproof with Music Control and Unlimited Watch Faces</small>
+                    <br><a href="" class="btn">Buy Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----testimonial---- -->
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Mi Smart Band 4- India's No.1 Fitness Band, Up-to 20 Days Battery Life, Color AMOLED Full-Touch Screen, Waterproof with Music Control and Unlimited Watch Faces</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="images/user-1.png">
+                    <h3>Aiswarya Natarajan</h3>
+                </div>
+                <div class="col3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Mi Smart Band 4- India's No.1 Fitness Band, Up-to 20 Days Battery Life, Color AMOLED Full-Touch Screen, Waterproof with Music Control and Unlimited Watch Faces</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="images/user-2.png">
+                    <h3>Jeya kumar</h3>
+                </div>
+                <div class="col3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Mi Smart Band 4- India's No.1 Fitness Band, Up-to 20 Days Battery Life, Color AMOLED Full-Touch Screen, Waterproof with Music Control and Unlimited Watch Faces</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="images/user-3.png">
+                    <h3>Ganga kowsalya</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----brands----- -->
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col5">
+                    <img src="images/logo-godrej.png">
+                </div>
+                <div class="col5">
+                    <img src="images/logo-oppo.png">
+                </div>
+                <div class="col5">
+                    <img src="images/logo-paypal.png">
+                </div>
+                <div class="col5">
+                    <img src="images/logo-philips.png">
+                </div>
+                <div class="col5">
+                    <img src="images/logo-coca-cola.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+     <!-- -----footer----- -->
+     <div class="footer">
+         <div class="small-container">
+             <div class="row">
+                 <div class="footer-col1">
+                     <h3>Download Our App</h3>
+                     <p>Download App for Android and ios mobile phone</p>
+                     <div class="app-logo">
+                         <img src="images/play-store.png">
+                         <img src="images/app-store.png">
+                     </div>
+                 </div>
+                 <div class="footer-col2">
+                    <a href="index.html"><img src="images/logo-white.png"></a>
+                    <p> Download Our App Download App for Android and ios mobile phone</p>
+                </div>
+                <div class="footer-col3">
+                   <h3>Useful Links</h3>
+                   <ul>
+                       <li>Coupons</li>
+                       <li>Blog post</li>
+                       <li>Return policy</li>
+                       <li>Join Affiliate</li>
+                   </ul>
+                </div>
+                <div class="footer-col4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Twitter</li>
+                        <li>Youtube</li>
+                    </ul>
+                 </div>
+            </div>
+         </div>
+             <hr>
+             <p class="copyright">Copyright 2020 - PrakashStore</p>
+    </div>
+
+     <script>
+         var menuItems = document.getElementById("menuItems");
+         menuItems.style.maxHeight ="0px";
+         function menutoggle(){
+             if(menuItems.style.maxHeight =="0px")
+             {
+                menuItems.style.maxHeight ="200px";
+             }
+             else{
+                menuItems.style.maxHeight ="0px";
+             }
+         }
+     </script>
+
+</body>
+</html>
